@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label">Name </label><br>
+        <input type="text" id="name" placeholder="Henok" required/>
+        <br>
+        <label id="email-label">Email </label><br>
+        <input type="email" id="email" placeholder="someone@gmail.com" required/>
+        <br>
+        <label id="number-label">Age (Optional)</label><br>
+        <input type="number" id="number" min="0" max="500" placeholder="Age"/>
+        <br>
+        <label id="number-label">Which option best describes your current role?</label>
+        <br>
+        <select id="dropdown">
+          <option>Student</option>
+          <option>Full Time Job</option>
+        </select>
+        <br>
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <br>
+        <label for="definitely"> 
+          <input id="definitely" value="Definitely" type="radio" name="Definitely">Definitely 
+        </label><br>
+            <label for="Maybe"> 
+          <input id="Maybe" value="Maybe" type="radio" name="Definitely">Maybe 
+        </label><br>
+        <br>
+        <label>What would you like to see improved? (Check all that apply)</label><br>
+            <label for="Front-end Projects"> 
+          <input id="Front-end Projects" value="Front-end Projects" type="checkbox" name="Projects">Front-end Projects 
+        </label><br>
+            <label for="Back-end Projects"> 
+          <input id="Back-end Projects" value="Back-end Projects" type="checkbox" name="Projects">Back-end Projects 
+        </label><br>
+            <label for="Challenges"> 
+          <input id="Challenges" value="Challenges" type="checkbox" name="Projects"> Challenges 
+        </label><br>
+            <br>
+            <label> Any comments or suggestions?</label><br>
+            <textarea id="t" name="t" placeholder="your comments"></textarea>
+            <br>
+            <input type="submit" id="submit" value="Submit"/>
+
+    </form>
+
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+  </body>
+</html>

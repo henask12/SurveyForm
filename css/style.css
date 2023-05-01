@@ -1,0 +1,17 @@
+#title{
+    color: blue;
+      font: Arial;
+      font-size: 55px;
+      background-color: rgb(141, 138, 133);
+      text-align:center;
+    }
+    body{
+      align-items: center;
+      background-color: rgb(141, 141, 129);
+      text-align:center;
+    }
+    #description{
+      background-color: rgb(3, 84, 116);
+      font-size: 20px;
+      text-align:center;
+    }
